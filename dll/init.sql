@@ -1,3 +1,4 @@
+-- create warehouse_size_recommendation and load init values
 create or replace table warehouse_size_recommendation (bytes_scanned_lower integer, bytes_scanned_upper integer,  recommended_size varchar);
 insert into warehouse_size_recommendation values
 
