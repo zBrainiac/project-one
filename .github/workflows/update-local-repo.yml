@@ -45,4 +45,4 @@ jobs:
           name: Release ${{ github.run_number }}
           tag_name: v${{ github.run_number }}
           files: release.zip
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
